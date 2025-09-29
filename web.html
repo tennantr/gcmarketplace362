@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamecock Marketplace - Sell</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #2d2d2d;
+    }
+
+    header {
+      background-color: #e6e6e6;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    header .title {
+      display: flex;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 18px;
+      margin: 0;
+      color: #800000;
+    }
+
+    header nav {
+      font-size: 14px;
+    }
+
+    header nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #0000cc;
+    }
+
+    .cart {
+      margin-left: 15px;
+    }
+
+    .sell-section {
+      background-color: #600;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .sell-section h2 {
+      font-size: 28px;
+      font-weight: bold;
+      margin: 0 0 20px 0;
+    }
+
+    .form-container {
+      background-color: #600;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 300px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 3px;
+      text-align: left;
+    }
+
+    input, select, textarea {
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      width: 100%;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 50px;
+    }
+
+    .upload {
+      background-color: #fff;
+      padding: 8px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .submit-btn {
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 16px;
+      background-color: #ff6666;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .images {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .images img {
+      width: 80%;
+      max-width: 500px;
+      margin: 10px auto;
+      display: block;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: #e6e6e6;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    footer h1 {
+      font-size: 16px;
+      color: #800000;
+      margin: 0;
+    }
+
+    footer nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #0000cc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="title">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/59/South_Carolina_Gamecocks_logo.svg/1200px-South_Carolina_Gamecocks_logo.svg.png" alt="Gamecock Logo">
+      <h1>Gamecock Marketplace<br>
+      <small>Official marketplace for students of The University of South Carolina</small></h1>
+    </div>
+    <nav>
+      <a href="#">Browse</a> | 
+      <a href="#">Sell</a> | 
+      <a href="#">Get Verified</a>
+      <span class="cart">Cart (0)</span>
+    </nav>
+  </header>
+
+  <section class="sell-section">
+    <h2>SELL SELL SELL!!!!!!</h2>
+  </section>
+
+  <div class="form-container">
+    <form>
+      <label>Item Name:</label>
+      <input type="text">
+
+      <label>Category:</label>
+      <select>
+        <option>Select a category</option>
+      </select>
+
+      <label>Description:</label>
+      <textarea></textarea>
+
+      <label>Price:</label>
+      <input type="text">
+
+      <label>Upload Photo:</label>
+      <input type="file" class="upload">
+
+      <label>Contact Information:</label>
+      <input type="email" placeholder="Email">
+      <input type="tel" placeholder="Phone Number">
+
+      <button type="submit" class="submit-btn">Submit!!</button>
+    </form>
+
+    <div class="images">
+      <img src="https://sc.edu/about/visit/campus/images/horseshoe_fountains_1200.jpg" alt="Campus Fountain">
+      <img src="https://media.istockphoto.com/id/1182475096/photo/business-partners-shaking-hands.jpg?s=612x612" alt="Handshake">
+    </div>
+  </div>
+
+  <footer>
+    <div class="title">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/59/South_Carolina_Gamecocks_logo.svg/1200px-South_Carolina_Gamecocks_logo.svg.png" alt="Gamecock Logo" height="30">
+      <h1>Gamecock Marketplace</h1>
+    </div>
+    <nav>
+      <a href="#">Browse</a> | 
+      <a href="#">Sell</a> | 
+      <a href="#">Get Verified</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
