@@ -76,6 +76,16 @@
       <p class="verify-text">Verify to buy and sell!</p>
       <img src="LOWER_IMAGE_URL" alt="Lower Section Image">
     </div>
+    <div class="review-form">
+  <h3>Submit a Review</h3>
+  <form id="reviewForm">
+    <input type="text" id="name" placeholder="Your name" required>
+    <textarea id="review" placeholder="Your review" required></textarea>
+    <button type="submit">Submit Review</button>
+  </form>
+  <p id="message"></p>
+</div>
+    </div>
   </section>
 
   <!-- Footer -->
@@ -96,9 +106,28 @@
       <a href="web2.html">Get Verified</a>
     </nav>
   </footer>
+<script>
+  const form = document.getElementById("reviewForm");
+  const nameInput = document.getElementById("name");
+  const reviewInput = document.getElementById("review");
+  const message = document.getElementById("message");
 
+  form.addEventListener("submit", function(event) {
+    event.preventDefault(); // Stop page reload
+
+    if (nameInput.value.trim() === "" || reviewInput.value.trim() === "") {
+      message.textContent = "Please fill out both fields.";
+      message.style.color = "red";
+    } else {
+      message.textContent = "Thank you for your review!";
+      message.style.color = "green";
+      form.reset();
+    }
+  });
+</script>
 </body>
 </html>
+
 
 
 
