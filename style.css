@@ -155,7 +155,7 @@ body {
 
 .reviews {
   list-style: none;
-  padding: 0;
+  padding: 6;
   font-weight: bold;
 }
 
@@ -183,4 +183,5 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 
