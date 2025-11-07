@@ -139,6 +139,8 @@ body {
 /* Lower Section */
 .lower-section {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #73000a; /* garnet */
   padding: 30px 20px;
   color: white;
@@ -175,7 +177,6 @@ body {
 
 
 .lower-image {
-  display: flex;
   margin-left: 20px;
   text-align: center;
 }
@@ -184,6 +185,7 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 
 
 
