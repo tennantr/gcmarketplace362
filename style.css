@@ -147,7 +147,7 @@ body {
 }
 
 .lower-content {
-  /* flex: 1 */
+  flex: 0 1 30%;
 }
 
 .lower-content h2 {
@@ -157,8 +157,12 @@ body {
 
 .reviews {
   list-style: none;
-  padding: 6;
+  padding: 6px;
   font-weight: bold;
+}
+
+.review-form {
+  flex: 0 1 30%;
 }
 
 .review-form form {
@@ -177,6 +181,11 @@ body {
 
 
 .lower-image {
+  flex: 0 1 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-left: 20px;
   text-align: center;
 }
@@ -185,6 +194,7 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 
 
 
